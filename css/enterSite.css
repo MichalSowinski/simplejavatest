@@ -1,0 +1,65 @@
+body
+{
+	background-color: #222629;
+	color: #F7F5E6;
+	font-family: 'Roboto', sans-serif;
+	
+	
+}
+
+#container
+{
+width:1000px;
+margin-left:auto;
+margin-right:auto;
+
+	
+}
+
+header
+{
+background-color: #474B4F;
+text-align:center;
+font-family: 'Frank Ruhl Libre', serif;
+}
+
+
+img
+{
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+	
+}
+h3
+{
+	text-align:center;
+	text-decoration:underline;
+}
+
+
+
+#startTestButton
+{
+background-color:#86C232;	
+font-weight:bold;
+font-size:18px;
+color: #D1E8E2;
+display:block;
+margin-left:auto;
+margin-right:auto;
+width:250px;
+padding:10px;	
+text-align:center;
+transition: transform 0.5s ease-in-out;
+text-decoration:none;
+}
+
+#startTestButton:hover
+{
+background-color:#75B121;
+webkit-transform: scale(0.95);
+ms-transform: scale(0.95);
+transform: scale(0.95);
+}
+

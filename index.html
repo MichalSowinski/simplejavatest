@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	
+	<title>Quiz for Junior Java Developers</title>
+	
+	<meta name="description" content="Quiz for Junior Java Developers! Try to Pass it and prove that you have theoretical knowledge from Java!" />
+	<meta name="keywords" content="Java,Quiz,Junior Java Developers, program,html,css" />
+	<link rel = "stylesheet" href = "css/style.css" type = "text/css">
+<link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:400,700&amp;subset=latin-ext" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=latin-ext" rel="stylesheet">
+	
+</head>
+
+<body>
+
+<div id = "container">
+
+<header>
+<h1>Test for Junior Java Developers<h1>
+</header>
+
+<main>
+
+<form class = "questions" id = "question1" data-question="1">
+<h3>1. Which method does NOT contain the Object class?</h3>
+<ul>
+<li><input type ="radio" name = "question1" value = "a" />equals</li>
+<li><input type ="radio" name = "question1" value = "b" />toString</li>
+<li><input type ="radio" name = "question1" value = "c" />toHashcode</li>
+<li><input type ="radio" name = "question1" value = "d" />wait</li>
+
+</ul>
+<button id= "submit">submit</button>
+</form>
+<form class = "questions" id = "question2" data-question="2">
+<h3>2. What values does the compareTo method return?</h3>
+<ul>
+<li><input type ="radio" name = "question2" value = "a" />any value of type int</li>
+<li><input type ="radio" name = "question2" value = "b" /> 0, 1, -1</li>
+<li><input type ="radio" name = "question2" value = "c" />true, false</li>
+<li><input type ="radio" name = "question2" value = "d" />all answers are correct</li>
+
+</ul>
+<button id= "submit">submit</button>
+</form>
+
+<form class = "questions" id = "question3" data-question="3">
+<h3>3. What keyword is used to exclude duplicates from the results of an SQL query?</h3>
+<ul>
+<li><input type ="radio" name = "question3" value = "a" />DISTINCT</li>
+<li><input type ="radio" name = "question3" value = "b" /> INTERSECT</li>
+<li><input type ="radio" name = "question3" value = "c" /> EXCEPT</li>
+<li><input type ="radio" name = "question3" value = "d" /> SINGLE</li>
+
+</ul>
+<button id= "submit">submit</button>
+</form>
+
+<form class = "questions" id = "question4" data-question="4">
+<h3>4. Can you change an existing String?</h3>
+<ul>
+<li><input type ="radio" name = "question4" value = "a" />only with String Builder</li>
+<li><input type ="radio" name = "question4" value = "b" />no, String is immutable</li>
+<li><input type ="radio" name = "question4" value = "c" />yes, like any other object</li>
+<li><input type ="radio" name = "question4" value = "d" />only with ToString</li>
+
+</ul>
+<button id= "submit">submit</button>
+</form>
+
+<form class = "questions" id = "question5" data-question="5">
+<h3>5. What symbol means choosing data from all table columns?</h3>
+<ul>
+<li><input type ="radio" name = "question5" value = "a" />ALL</li>
+<li><input type ="radio" name = "question5" value = "b" />SELECTALL</li>
+<li><input type ="radio" name = "question5" value = "c" />=!</li>
+<li><input type ="radio" name = "question5" value = "d" />*</li>
+
+</ul>
+<button id= "submit">submit</button>
+</form>
+
+<form class = "questions" id = "question6" data-question="6">
+<h3>6. How get a single character from a String object??</h3>
+<ul>
+<li><input type ="radio" name = "question6" value = "a" />by index </li>
+<li><input type ="radio" name = "question6" value = "b" />method: getChar</li>
+<li><input type ="radio" name = "question6" value = "c" />method:getPoint</li>
+<li><input type ="radio" name = "question6" value = "d" />it is impossible to get single character in Java</li>
+
+
+</ul>
+<button id= "submit">submit</button>
+</form>
+
+<form>
+<div id = "results"></div>
+
+</form>
+
+
+
+</main>
+
+<footer>
+
+&copy 2018 created by Michał Sowiński
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src ="js/quiz.js"></script>
+
+
+</div>
+
+	
+</body>
+</html>
